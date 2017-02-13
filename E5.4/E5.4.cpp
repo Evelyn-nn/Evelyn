@@ -10,7 +10,7 @@ int main()
 	while (b<=a )
 	{
 		++year;
-		a = a + 10;
+		a = a + 11;
 		b = b + (b+100)* 0.05;
 	}
 	cout << year << " years later ,Cleo's money is more than Daphne's money ." << endl;
